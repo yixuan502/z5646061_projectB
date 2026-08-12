@@ -195,9 +195,12 @@ and a 390-pixel narrow viewport with no page-level horizontal overflow.
 
 ## Current report status
 
-`report/report.docx` now exists as a visibly marked student-review draft. It
-uses the evidence mapped in this guide, but it is not the final assessed
-submission. The student must rewrite and confirm the interpretation, reflection,
-and recommendations in their own words, remove the draft notice, and export
-`report/report.pdf`. Follow `report/STUDENT_REVIEW_CHECKLIST.md` before the PDF
-and deployment stage.
+The student has reviewed and revised the assessed narrative, interpretation,
+reflection, limitations, and recommendations. The final report is available as:
+
+- `report/report.docx` — editable source document
+- `report/report.pdf` — final submission version
+
+The numerical statements and exhibits in the report have been reconciled
+against the validated files in `results/`. Historical AI drafting evidence
+remains recorded separately in `ai/prompt_log_08_report_draft.md`.

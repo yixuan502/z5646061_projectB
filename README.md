@@ -181,14 +181,21 @@ Raw data is never committed. It loads only through `src/data_access.py`. Derived
 
 ## Deployment and hand-in
 
-Stage 7A has produced `report/report.docx` as a visibly marked student-review
-draft and `report/STUDENT_REVIEW_CHECKLIST.md` as the handoff checklist. The
-student must rewrite and confirm the assessed narrative in their own words,
-remove the draft notice, and export `report/report.pdf` before deployment and
-hand-in.
+The report has been reviewed by the student and exported to
+`report/report.pdf` as the final submission version.
 
-Keep the repository private while building. After the report and final checks, follow
-`docs/STUDENT_DEPLOY.md`: initialise this folder as its own GitHub repository,
-push the precomputed results, deploy `streamlit_app.py`, and make the repository
-public only at hand-in. Submit the full ZIP, public repository URL, and live app
-URL.
+Submission deliverables:
+
+- Project ZIP: `z5646061_projectB.zip`
+- Public GitHub repository: https://github.com/yixuan502/z5646061_projectB
+- Live Streamlit application: https://atlassignal-fins5545.streamlit.app/
+
+The numerical results in `results/` are the validated Stage 1–6 outputs.
+They should not be regenerated during final submission preparation.
+
+Before hand-in, run:
+
+```bash
+python -m pytest tests -q -p no:cacheprovider
+python scripts/check_handin.py
+```
