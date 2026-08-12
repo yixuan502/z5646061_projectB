@@ -1,0 +1,13 @@
+Fund,Asset Family,Method,OOS Start,OOS End,Annualised Return (%),Annualised Volatility (%),Sharpe Ratio,Maximum Drawdown (%)
+Equity Equal Weight,equity,Equal Weight,2021-01-04,2023-12-29,13.205,16.118,0.819,-20.249
+Equity Minimum Variance,equity,Minimum Variance,2021-01-04,2023-12-29,6.471,12.496,0.518,-15.655
+Equity Maximum Sharpe,equity,Maximum Sharpe,2021-01-04,2023-12-29,11.086,16.63,0.667,-19.13
+Equity Risk Parity,equity,Risk Parity,2021-01-04,2023-12-29,10.506,14.528,0.723,-18.493
+Crypto Equal Weight,crypto,Equal Weight,2021-01-01,2023-12-31,67.871,81.89,0.829,-81.571
+Crypto Minimum Variance,crypto,Minimum Variance,2021-01-01,2023-12-31,82.656,76.908,1.075,-72.819
+Crypto Maximum Sharpe,crypto,Maximum Sharpe,2021-01-01,2023-12-31,43.456,76.347,0.569,-82.563
+Crypto Risk Parity,crypto,Risk Parity,2021-01-01,2023-12-31,68.902,79.894,0.862,-79.875
+Combined Equal Weight,combined,Equal Weight,2021-01-04,2023-12-29,16.434,21.6,0.761,-27.872
+Combined Minimum Variance,combined,Minimum Variance,2021-01-04,2023-12-29,6.483,12.516,0.518,-15.778
+Combined Maximum Sharpe,combined,Maximum Sharpe,2021-01-04,2023-12-29,14.241,19.34,0.736,-19.331
+Combined Risk Parity,combined,Risk Parity,2021-01-04,2023-12-29,14.39,16.202,0.888,-19.475

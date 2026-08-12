@@ -1,0 +1,8 @@
+dataset,rows,columns,start_date,end_date,duplicate_keys,missing_values,status
+clean_equities,50300,9,2020-01-02,2023-12-29,0,0,PASS
+clean_crypto,14610,8,2020-01-01,2023-12-31,0,0,PASS
+clean_headlines,146836,6,2020-01-01,2023-12-31,0,0,PASS
+equity_returns_panel,1006,50,2020-01-02,2023-12-29,0,50,PASS
+crypto_returns_panel,1461,10,2020-01-01,2023-12-31,0,10,PASS
+combined_returns_panel,1006,60,2020-01-02,2023-12-29,0,50,PASS
+daily_headline_panel,37962,7,2020-01-02,2023-12-29,0,0,PASS

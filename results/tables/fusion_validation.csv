@@ -1,0 +1,10 @@
+check,value,expected,status
+primary_fusion_funds,6.0,6,PASS
+target_weight_max_sum_error,3.552713678800501e-15,<= 1e-8,PASS
+combined_crypto_target_max_error,0.0,<= 1e-14,PASS
+stage2_base_return_max_error,1.8041124150158794e-16,<= 1e-12,PASS
+signal_look_ahead_violations,0.0,0,PASS
+hhi_month_look_ahead_violations,0.0,0,PASS
+monthly_sector_hhi_rows,480.0,480,PASS
+normalised_hhi_out_of_bounds,0.0,0,PASS
+available_fusion_signal_rows,9440.0,diagnostic,PASS

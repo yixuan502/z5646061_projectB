@@ -1,0 +1,12 @@
+check,value,expected,status
+mapped_headlines_scored,146830.0,146830,PASS
+unique_ticker_days,37962.0,37962,PASS
+complete_sector_date_grid,10060.0,10060,PASS
+headline_compound_min,-0.9186,>= -1,PASS
+headline_compound_max,0.9552,<= 1,PASS
+positive_headlines,54980.0,diagnostic,PASS
+neutral_headlines,72786.0,diagnostic,PASS
+negative_headlines,19064.0,diagnostic,PASS
+sector_days_with_news,9832.0,diagnostic,PASS
+sector_days_without_news,228.0,"retained as missing, not neutral",PASS
+look_ahead_violations,0.0,0,PASS
